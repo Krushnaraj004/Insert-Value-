@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KJ</title>
+	<link rel="stylesheet" type="text/css" href="abc.css">
+</head>
+<body>
+	<div id="container">
+		<form id="con">
+			<h1>LOGIN FORM</h1><br><br>
+			Name:<input type="text" placeholder="Enter name" id="n1" onsubmit="fun()"><br><br>
+			Mobile_no:<input type="text" placeholder="Enter no" id="n2" onsubmit="fun()"><br><br>
+			Email:<input type="text" placeholder="Enter Email" id="n3"onsubmit="fun()"><br><br>
+			Date:<input type="date" id="n4"><br><br>
+				<input type="submit" name="submit" class="n5">
+		</form><br>
+	
+	</div>
+		<br>
+		<div id="list">
+			<ul id="listwork">
+			</ul>
+		</div>
+	<script type="text/javascript" src="abc1.js">
+		function fun()
+		{
+			if(document.getElementById("n1").value=="")
+			{
+				alert("Enter your detail");
+			}
+			if(document.getElementById("n2").value=="")
+			{
+				alert("Enter your detail");
+			}
+			if(document.getElementById("n3").value=="")
+			{
+				alert("Enter your detail");
+
+			}
+	}
+
+	</script>
+</body>
+</html>
